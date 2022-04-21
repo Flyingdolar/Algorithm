@@ -8,6 +8,9 @@ int main(int argc, char const *argv[])
     int c;
 
     c = getchar();
-    char a = fgets(b, 10, stdin);
+    char* a = fgets(b, 10, stdin);
+    printf("%d\n",c);
+    printf("%s",b);
+    printf("%s",a);
     return 0;
 }
